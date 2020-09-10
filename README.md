@@ -1,3 +1,3 @@
 # revoltbikes
 
-![picture](markup.png)
+![picture](mockup.png)
