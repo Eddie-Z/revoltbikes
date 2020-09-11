@@ -1,0 +1,30 @@
+.models{
+    width: 80%;
+    margin:auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color:black;
+    min-height:90vh;
+    text-align: center;
+    
+    .cards{
+        display:flex;
+        justify-content: space-between;
+
+        .card{
+            margin:1rem;
+           text-align:center;
+           display:flex;
+           flex-direction: column;  
+           box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            img{
+                object-fit: cover;
+                max-width:90%;
+            }
+            ul{
+                list-style: none;
+            }
+        }
+    }
+}
