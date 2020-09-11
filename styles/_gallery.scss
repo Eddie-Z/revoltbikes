@@ -1,0 +1,24 @@
+.gallery{
+    min-width: 80%;
+    min-height:90vh;
+    text-align: center;
+    margin:auto;
+    background-color:rgb(204, 204, 204);
+    color:black;
+
+    .gallery-boxes{
+        margin:3rem auto;
+        width:80%;
+        display: flex;
+        flex-wrap: wrap;
+ 
+        flex-direction: row;
+        max-height: 100vh;
+        img{
+            margin: 2rem;
+            border: 3px solid #000;
+            box-shadow: 1px 1px 1px 0px rgba(94, 94, 94, 0.3); 
+            max-width: 20rem;
+        }
+    }
+}
