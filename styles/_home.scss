@@ -1,0 +1,49 @@
+.home{
+  
+    
+}
+.nav-container{
+    img{
+        width:100%;
+    }
+}
+
+nav{
+    width:80%;
+    margin:auto;
+    min-height:10vh;
+    padding:3rem 0rem;
+    display:flex; //side by side
+    justify-content: space-between;
+    align-items: center;
+    color:black;
+        
+    ul{
+        display:flex;
+        justify-content: space-between;
+        flex:1;
+        list-style: none;
+    }
+    #logo{
+        flex:2;
+    }
+    
+}
+
+.showcase{
+    background-image:url("../images/bike.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    min-height:80vh;
+    display:grid;
+    grid-template-columns: 10% repeat(3,1fr) 10%;
+    grid-template-rows: 1fr 2fr 1fr;
+    .info{
+        grid-column:3/4;
+        grid-row:2/3;
+        text-align:center;
+        margin:auto;
+    }
+}
+
