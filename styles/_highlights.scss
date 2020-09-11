@@ -1,0 +1,17 @@
+.highlights{
+    min-height:90vh;
+    width:80%;
+    margin: auto;
+    text-align: center;
+    color:black;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    .highlights-container{
+        margin:10rem;
+        p{
+            margin:2rem;
+        }
+    }
+}
